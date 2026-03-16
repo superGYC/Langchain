@@ -1,0 +1,29 @@
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.0
+langchain-text-splitters>=0.3.0
+langchain-core>=0.3.0
+
+# 向量存储
+chromadb>=0.5.0
+faiss-cpu>=1.8.0
+
+# 工具
+duckduckgo-search>=6.0.0
+tavily-python>=0.5.0
+
+# 其他依赖
+openai>=1.0.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+unstructured>=0.15.0
+
+# 可选：本地模型
+# langchain-ollama>=0.2.0
+
+# 可选：其他模型提供商
+# langchain-anthropic>=0.2.0
+# langchain-google-genai>=2.0.0
